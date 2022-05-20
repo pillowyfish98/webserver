@@ -315,7 +315,7 @@ footer {
 	margin-top: -16%;
 	cursor: crosshair;
 }
-.video {
+.ytplayer {
 	position:absolute;
-	right: 350px;
+	right: 50px;
 }
