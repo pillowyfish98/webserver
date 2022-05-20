@@ -1,0 +1,124 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,600,600italic";
+
+body{
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: #000000;
+	color: white;
+}
+
+
+#wrapper{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.left-column{
+	float: left;
+	width: 355px;
+}
+
+.right-column{
+	float: right;
+	position: relative;
+	right: 84%;
+	margin-top: 48.8%;
+}
+
+.box{
+	background: #00000;
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid #00000;
+	border-radius: 20px;
+	box-shadow: 0 3px 5px #00000;
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.button{
+	background: grey;
+	cursor: pointer;
+	font-size: 12px;
+	margin-top: 1px;
+	padding: 1px;
+	border: 2px solid #0019ff;
+	border-radius: 3px;
+	text-align: center;
+}
+.button:hover{
+	background: black;
+}
+
+.box.display{
+	text-align: right;
+	position: relative;
+}
+#display{
+	background: gray;
+	border: 1px solid #0019ff;
+	border-radius: 20px;
+}
+
+.box.controls table{
+	width: 100%;
+}
+.box.controls table td:nth-child(2n+1){
+	margin: 3px 3px 3px 8px;
+	padding: 1px 5px;
+	background: gray;
+	border: 0px solid #808080;
+	border-radius: 8px;
+	box-shadow: 0 -1px 3px #CCCCCC inset;
+	text-align: center;
+	font-size: 14px;
+}
+.box.controls table td:nth-child(2n){
+	font-size: 10px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.copyright{
+	font-size: 12px;
+	margin: 0 0 8px 8px;
+}
+.copyright a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#romlist div{
+	border-bottom: 1px solid #80bfff;
+	padding-left: 5px;
+	cursor: pointer;
+}
+#romlist div:hover{
+	background: rgba(255,255,255,0.4);
+}
+
+#cartridge{
+	text-align: right;
+	font-size: 12px;
+	font-style: italic;
+}
+
+
+.red{
+	position: absolute;
+	width: 120px;
+	z-index: 2;
+}
+.red:hover{
+	opacity: 0%;
+}
+
+.red_hover{
+	position: absolute;
+	width: 120px;
+	z-index: 1;
+}
